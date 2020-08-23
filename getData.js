@@ -34,11 +34,11 @@ function clickOnRemove(e){
     location.href = '/'
 }
 
-// var editData = document.getElementsByClassName('editData')
-// editData.onclick = clickOnEditData
-// function clickOnEditData(e){
-//     console.log(e)
-// }
+var editData = document.getElementsByClassName('editData')
+editData.onclick = clickOnEditData
+function clickOnEditData(e){
+    console.log(e)
+}
 
 
 function render(db){
